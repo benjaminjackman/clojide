@@ -1,0 +1,1 @@
+lein run -m clojide.core 8080
