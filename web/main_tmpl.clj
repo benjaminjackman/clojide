@@ -3,8 +3,10 @@
 (def editor
   (html 
     [:html 
+      [:head
+        [:title "Clojide"]]
       [:body 
-        [:h1 "Whatever"]
-        [:p ]
-        [:textarea {:cols 80, :rows 30}]
-        [:textarea {:cols 120, :rows 15}]]]))
+        [:h2#title "Clojide"]
+;        [:iframe#editor {:width 600, :height 400} []]
+        [:textarea#repl {:cols 80, :rows 30}]
+        [:textarea#repl {:cols 80, :rows 15}]]]))
